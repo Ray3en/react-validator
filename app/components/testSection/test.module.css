@@ -1,0 +1,52 @@
+.Test {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    background-color: #F4F5F8;
+
+    min-height: 250px;
+    position: absolute;
+    bottom: 0;
+    padding: 24px;
+
+}
+
+.TestInfo {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.TestElem {
+    list-style: none;
+    display: flex;
+    gap: 15px
+}
+
+.TestWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.TestTestWrapper {
+    padding: 10px 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.TestElemTest {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.QuadSpan {
+    width: 8px;
+    height: 8px;
+    background-color: #4CAF50;
+    border-radius: 1px;
+}
